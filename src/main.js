@@ -2,7 +2,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import process from "process";
+import "./assets/scss/tailwind.scss";
 
-console.log(process.env.MY_ENV);
+console.log(import.meta.env.VITE_TEST);
 createApp(App).use(store).use(router).mount("#app");
