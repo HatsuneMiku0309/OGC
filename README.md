@@ -1,4 +1,4 @@
-# ogc
+# ogc (Open Generation Chat)
 
 ## Project setup
 ```
