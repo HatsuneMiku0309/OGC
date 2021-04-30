@@ -3,7 +3,16 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
-  <router-view />
+  <router-view v-slot="{ Component }">
+    <Suspense>
+      <template #default>
+        <component :is="Component" />
+      </template>
+      <template #fallback>
+        <div>Loading...</div>
+      </template>
+    </Suspense>
+  </router-view>
 </template>
 
 <style>
