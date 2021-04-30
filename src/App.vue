@@ -1,39 +1,23 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <Header class="h-10" />
+  <div id="container" name="container" class="flex">
+    <SideBar class="w-1/6" />
+    <Content class="flex-auto" />
   </div>
-  <router-view v-slot="{ Component }">
-    <Suspense>
-      <template #default>
-        <component :is="Component" />
-      </template>
-      <template #fallback>
-        <div>Loading...</div>
-      </template>
-    </Suspense>
-  </router-view>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import Header from "./views/Header.vue";
+import SideBar from "./views/SideBar.vue";
+import Content from "./views/Content.vue";
 
-#nav {
-  padding: 30px;
-}
+export default {
+  name: "MainPage",
+  components: { SideBar, Content, Header },
+  setup() {
+    return {};
+  },
+};
+</script>
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+<style scoped lang="scss"></style>

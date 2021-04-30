@@ -5,6 +5,8 @@
 }
 
 
-body {
-  @apply bg-green-400;
+body, html {
+  height: 100%;
+   @apply overflow-hidden;
 }
+
