@@ -1,7 +1,7 @@
 <template>
   <Header class="h-10" />
   <div id="container" name="container" class="flex">
-    <SideBar class="w-1/6" />
+    <SideBar class="w-64 border-gray-400 border-t-2 overflow-y-hidden" />
     <Content class="flex-auto" />
   </div>
 </template>
@@ -20,4 +20,4 @@ export default {
 };
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped></style>
