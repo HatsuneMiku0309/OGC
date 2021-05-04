@@ -12,24 +12,40 @@
       </div>
       <div class="flex items-center w-20">edit</div>
     </div>
-    <div class="overflow-y-hidden hover:overflow-y-scroll h-screen">
+    <div class="overflow-y-hidden hover:overflow-y-scroll h-screen mt-2 ml-2">
+      <div>Theards</div>
+      <TreeMenu :gg="treeMenu" />
       <div name="menu">
         <h1>menu1</h1>
-        <div>01</div>
-        <div>02</div>
+        <div class="ml-4">
+          <div>01</div>
+          <div>02</div>
+        </div>
       </div>
       <div name="menu2">
         <h1>menu2</h1>
-        <div>03</div>
-        <div>04</div>
+        <div class="ml-4">
+          <div>03</div>
+          <div>04</div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import TreeMenu from "@/components/TreeMenu.vue";
 export default {
   name: "SideBar",
+  components: [TreeMenu],
+  setup() {
+    return {
+      treeMenu: [
+        { title: "test", childs: ["1"] },
+        { title: "test2", childs: ["2"] },
+      ],
+    };
+  },
 };
 </script>
 
