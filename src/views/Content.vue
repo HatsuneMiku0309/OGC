@@ -1,14 +1,234 @@
 <template>
   <div name="content" class="flex flex-col">
-    <div class="flex h-14 items-center px-5 flex-shrink-0">
+    <div
+      class="flex h-16 w-full items-center px-5 flex-shrink-0 border-b border-solid border-gray-400"
+    >
       <div class="flex flex-grow justify-start">cosmo</div>
       <div class="flex flex-grow justify-end">image</div>
     </div>
     <div
       class="flex flex-col flex-1 m-h-0 overflow-y-hidden hover:overflow-y-scroll"
     >
-      <div><span>我的第一個聊天</span></div>
-      <div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
+        <span><pre>我的第一個聊天</pre></span>
+      </div>
+      <div class="hover:bg-teal-100 py-2 pl-2">
         <span class="whitespace-pre-wrap">
           <pre>我的第二個聊天    還有換行拉</pre>
         </span>
