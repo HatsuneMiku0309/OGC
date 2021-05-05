@@ -12,7 +12,9 @@
       </div>
       <div class="flex items-center w-20">edit</div>
     </div>
-    <div class="overflow-y-hidden hover:overflow-y-scroll mt-2 ml-2">
+    <div
+      class="overflow-y-hidden hover:overflow-y-scroll mt-2 ml-2 mb-2 h-full"
+    >
       <TreeMenu v-for="(tree, key) in treeMenu" :key="key" :menu="tree" />
     </div>
   </div>
@@ -26,6 +28,51 @@ export default {
   setup() {
     return {
       treeMenu: [
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
         { title: "Theards" },
         { title: "Menu1", childs: ["1", "2"] },
         { title: "Menu2", childs: ["3", "4"] },

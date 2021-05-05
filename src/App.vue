@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Header class="h-10" />
+    <Header class="h-10 border-gray-400 border-b" />
     <div name="container" class="flex content">
-      <SideBar class="w-64 border-gray-400 border-t-2 overflow-y-hidden" />
+      <SideBar class="w-64 overflow-y-hidden" />
       <Content class="flex-auto" />
     </div>
   </div>
