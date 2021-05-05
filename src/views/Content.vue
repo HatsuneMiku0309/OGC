@@ -5,7 +5,7 @@
       <div class="flex flex-grow justify-end">image</div>
     </div>
     <div
-      class="flex flex-col h-full m-h-0 overflow-y-hidden hover:overflow-y-scroll"
+      class="flex flex-col flex-1 m-h-0 overflow-y-hidden hover:overflow-y-scroll"
     >
       <div><span>我的第一個聊天</span></div>
       <div>

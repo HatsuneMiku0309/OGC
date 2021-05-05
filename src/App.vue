@@ -1,8 +1,10 @@
 <template>
-  <Header class="h-10" />
-  <div id="container" name="container" class="flex">
-    <SideBar class="w-64 border-gray-400 border-t-2 overflow-y-hidden" />
-    <Content class="flex-auto" />
+  <div>
+    <Header class="h-10" />
+    <div name="container" class="flex content">
+      <SideBar class="w-64 border-gray-400 border-t-2 overflow-y-hidden" />
+      <Content class="flex-auto" />
+    </div>
   </div>
 </template>
 
@@ -20,4 +22,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.content {
+  height: calc(100vh - 2.5rem);
+}
+</style>

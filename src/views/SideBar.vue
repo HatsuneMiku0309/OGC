@@ -1,5 +1,5 @@
 <template>
-  <div name="side-bar" class="flex flex-col h-screen basic-color">
+  <div name="side-bar" class="flex flex-col basic-color">
     <div
       name="top-nav"
       class="flex h-16 w-full border-b hover:bg-green-400 cursor-pointer"
