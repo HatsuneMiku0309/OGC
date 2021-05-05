@@ -12,23 +12,8 @@
       </div>
       <div class="flex items-center w-20">edit</div>
     </div>
-    <div class="overflow-y-hidden hover:overflow-y-scroll h-screen mt-2 ml-2">
-      <div>Theards</div>
-      <TreeMenu :gg="treeMenu" />
-      <div name="menu">
-        <h1>menu1</h1>
-        <div class="ml-4">
-          <div>01</div>
-          <div>02</div>
-        </div>
-      </div>
-      <div name="menu2">
-        <h1>menu2</h1>
-        <div class="ml-4">
-          <div>03</div>
-          <div>04</div>
-        </div>
-      </div>
+    <div class="overflow-y-hidden hover:overflow-y-scroll mt-2 ml-2">
+      <TreeMenu v-for="(tree, key) in treeMenu" :key="key" :menu="tree" />
     </div>
   </div>
 </template>
@@ -37,12 +22,13 @@
 import TreeMenu from "@/components/TreeMenu.vue";
 export default {
   name: "SideBar",
-  components: [TreeMenu],
+  components: { TreeMenu },
   setup() {
     return {
       treeMenu: [
-        { title: "test", childs: ["1"] },
-        { title: "test2", childs: ["2"] },
+        { title: "Theards" },
+        { title: "Menu1", childs: ["1", "2"] },
+        { title: "Menu2", childs: ["3", "4"] },
       ],
     };
   },
@@ -51,9 +37,12 @@ export default {
 
 <style scoped>
 .top-nav::before {
-  content: "▽";
-  color: #337ab7;
-  position: absolute;
-  left: 3.5rem;
+  content: "";
+  @apply w-4;
+  @apply h-4;
+  @apply bg-no-repeat;
+  @apply left-14;
+  @apply absolute;
+  background-image: url("@/../public/assets/images/chevron-down.svg");
 }
 </style>

@@ -8,11 +8,11 @@
         class="search h-full w-full block bg-transparent pl-8 border-2 border-green-500 border-solid rounded-lg text-green-600 font-bold focus:outline-none"
       />
     </div>
-    <div class="flex flex-grow justify-end flex-1">
-      <div name="profile-image" class="image-box mr-2">
+    <div class="flex flex-grow justify-end flex-1 pr-2">
+      <div name="profile-image" class="image-box">
         <img
           class="w-8 h-8 rounded-lg border-2 border-solid border-green-600 cursor-pointer"
-          src="@/assets/images/cute-cat.jpg"
+          src="r/../public/assets/images/cute-cat.jpg"
         />
         <div class="login-status"></div>
       </div>
@@ -32,7 +32,7 @@ export default {
 }
 
 .search {
-  background-image: url("@/assets/images/search.svg");
+  background-image: url("@/../public/assets/images/search.svg");
   background-size: 16px;
   background-position: 10px 50%;
   @apply bg-no-repeat;

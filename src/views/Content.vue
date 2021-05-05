@@ -1,6 +1,21 @@
 <template>
-  <div name="content" class="bg-white">
-    content
+  <div name="content" class="flex flex-col">
+    <div class="flex h-14 items-center px-5 flex-shrink-0">
+      <div class="flex flex-grow justify-start">cosmo</div>
+      <div class="flex flex-grow justify-end">image</div>
+    </div>
+    <div
+      class="flex flex-col h-full m-h-0 overflow-y-hidden hover:overflow-y-scroll"
+    >
+      <div><span>我的第一個聊天</span></div>
+      <div>
+        <span class="whitespace-pre-wrap">
+          <pre>我的第二個聊天    還有換行拉</pre>
+        </span>
+      </div>
+    </div>
+    <div class="flex h-20 px-5 flex-shrink-0">input</div>
+    <!--
     <router-view v-slot="{ component }">
       <suspense>
         <template #default>
@@ -11,6 +26,7 @@
         </template>
       </suspense>
     </router-view>
+    -->
   </div>
 </template>
 
