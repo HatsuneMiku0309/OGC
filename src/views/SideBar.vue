@@ -12,9 +12,7 @@
       </div>
       <div class="flex items-center w-20">edit</div>
     </div>
-    <div
-      class="overflow-y-hidden hover:overflow-y-scroll mt-2 ml-2 mb-2 h-full"
-    >
+    <div class="overflow-y-hidden hover:overflow-y-scroll m-2 h-full">
       <TreeMenu v-for="(tree, key) in treeMenu" :key="key" :menu="tree" />
     </div>
   </div>

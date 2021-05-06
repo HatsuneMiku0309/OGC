@@ -1,5 +1,5 @@
 <template>
-  <div class="ml-2">
+  <div class="">
     <div class="cursor-pointer">
       <i class="menu-open"></i><span>{{ title }}</span>
     </div>
@@ -35,22 +35,19 @@ export default {
   content: "";
   background-image: url("@/../public/assets/images/caret-right.svg");
   @apply bg-no-repeat;
-  @apply absolute;
   @apply w-4;
   @apply h-4;
-  @apply left-0;
-  @apply mt-1;
-  @apply ml-1;
+  @apply relative;
+  @apply inline-block;
 }
+
 .menu-open::before {
   content: "";
   background-image: url("@/../public/assets/images/caret-down.svg");
   @apply bg-no-repeat;
-  @apply absolute;
   @apply w-4;
   @apply h-4;
-  @apply left-0;
-  @apply mt-1;
-  @apply ml-1;
+  @apply relative;
+  @apply inline-block;
 }
 </style>

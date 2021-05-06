@@ -234,7 +234,11 @@
         </span>
       </div>
     </div>
-    <div class="flex h-20 px-5 flex-shrink-0">input</div>
+    <div class="flex h-20 px-3 py-1 flex-shrink-0 border-t border-gray-400">
+      <textarea
+        class="border-2 border-gray-400 w-full p-1 rounded resize-none"
+      ></textarea>
+    </div>
     <!--
     <router-view v-slot="{ component }">
       <suspense>
