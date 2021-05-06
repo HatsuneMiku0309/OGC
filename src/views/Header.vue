@@ -12,7 +12,7 @@
       <div name="profile-image" class="image-box">
         <img
           class="w-8 h-8 rounded-lg border-2 border-solid border-green-600 cursor-pointer"
-          src="r/../public/assets/images/cute-cat.jpg"
+          src="@/../public/assets/images/cute-cat.jpg"
         />
         <div class="login-status"></div>
       </div>
