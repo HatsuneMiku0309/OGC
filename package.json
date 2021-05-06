@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "serve": "vite preview",
-    "build": "npm run lint-cli && vite build && http-server ./dist",
+    "build": "npm run lint-cli && vite build",
     "build-staging": "vite build --mode staging && http-server ./dist",
     "dev": "vite",
     "server-cli": "vue-cli-service serve",
