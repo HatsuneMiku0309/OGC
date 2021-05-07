@@ -20,61 +20,25 @@
 
 <script>
 import TreeMenu from "@/components/TreeMenu.vue";
+import { reactive } from "vue";
+
 export default {
   name: "SideBar",
   components: { TreeMenu },
   setup() {
+    const treeMenu = reactive([
+      { title: "Theards" },
+      { title: "Menu1", childs: ["1", "2"] },
+      { title: "Menu2", childs: ["3", "4"] },
+    ]);
+    const _treeMenu = [...treeMenu];
+
+    for (let i = 0; i < 10; i++) {
+      treeMenu.push(..._treeMenu);
+    }
+
     return {
-      treeMenu: [
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-        { title: "Theards" },
-        { title: "Menu1", childs: ["1", "2"] },
-        { title: "Menu2", childs: ["3", "4"] },
-      ],
+      treeMenu: treeMenu,
     };
   },
 };

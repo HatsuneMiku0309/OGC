@@ -9,9 +9,9 @@
       />
     </div>
     <div class="flex flex-grow justify-end flex-1 pr-2">
-      <div name="profile-image" class="image-box">
+      <div name="profile-image" class="image-box cursor-pointer">
         <img
-          class="w-8 h-8 rounded-lg border-2 border-solid border-green-600 cursor-pointer"
+          class="w-8 h-8 rounded-lg border-2 border-solid border-green-600"
           src="@/../public/assets/images/cute-cat.jpg"
         />
         <div class="login-status"></div>
