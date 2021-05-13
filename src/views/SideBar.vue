@@ -1,5 +1,8 @@
 <template>
   <div name="side-bar" class="flex flex-col basic-color">
+    <div class="hidden fixed border-4 border-solid border-teal-300 right-0">
+      <div class="bg-teal-500">新增channel 新增 concat</div>
+    </div>
     <div
       name="top-nav"
       class="flex h-16 w-full border-b hover:bg-green-400 cursor-pointer"
