@@ -5,7 +5,7 @@
       <input
         type="text"
         placeholder="Search"
-        class="search h-full w-full block bg-transparent pl-8 border-2 border-green-500 border-solid rounded-lg text-green-600 font-bold focus:outline-none"
+        class="search h-full w-full block bg-transparent pl-8 border-2 border-green-500 border-solid rounded-lg text-green-600 font-bold focus:outline-none focus:border-teal-700"
       />
     </div>
     <div class="flex flex-grow justify-end flex-1 pr-2">
